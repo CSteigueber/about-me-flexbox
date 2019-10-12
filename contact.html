@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="meyerweb_reset_stylesheet.css">
+    <link rel="stylesheet" href="flexboxes.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="pics/favicon.ico">
+    <title>contact</title></head>
+<body>
+
+    <nav>
+        <header>You're doing good! Go to 
+            <a href="home.html"> <span class="grow_text">home</span></a>,
+            <a href="about_me.html"><span class="grow_text"> About me</span></a>
+            , or <a href="contact.html"><span class="grow_text"> contact</span></a></header>
+    </nav>
+    <main id="main_contact">
+        <h1>Want to get in touch? That's awesome!! <br></h1>
+        
+        <section id="contact">
+            <h2>Just send me an email:</h2>
+            <a href="mailto:not.real@gmail.com" class="button">Send me an oldschool email!</a>
+            <form class="contact_container" action="https://formspree.io/c.steigueber@gmail.com" method="POST" >
+                <input class="contact_item" id="firstname " type="text" name="firstname" placeholder="Firstname"><br>
+                <input class="contact_item" id="lastname " type="text" name="lastname" placeholder="Lastname"><br>
+                <input class="contact_item" id="email " type="email" name="email" placeholder="email@email.com"><br>
+                <input class="contact_item" id="message " type="text" name="message" placeholder="your message">
+                <button class="contact_item button" onclick="mailto:not.real@gmail.com" enctype="text/plain">Submit</button>
+            </form>
+             
+        </section>
+        
+    </main>
+    
+  <footer><address> BeCode Ghent; Konigin Astridlaan 185; 9000 Gent; Belgium <br></address></footer>
+    
+</body>
+
+</html>

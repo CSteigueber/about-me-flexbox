@@ -1,0 +1,101 @@
+@keyframes toggle {
+    25% { transform: translate(10px);}
+    50% {transform: translate(0px);}
+    75% { transform: translate(-10px);}
+    100% {transform: translate(0px);}
+}
+ button:hover, a:hover {
+    animation-name: toggle;
+    animation-duration: 250ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+}
+a {
+    text-decoration: none;
+}
+body {
+    line-height: 1.2;
+    font-family: cursive;
+    background-image: url(pics/Journey-of-life1920x1080-wallpaper-wp6606659.jpg);
+    background-size: contain;
+}
+/*button {
+    background-color: midnightblue;
+    color: whitesmoke;
+    border-radius: 50px;
+}*/
+
+
+.button:hover {
+    background-color: darkslateblue;
+}
+header {
+    text-align: center;
+    color: midnightblue;
+}
+h1 {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+body {
+    background-image: url(pics/Journey-of-life1920x1080-wallpaper-wp6606659.jpg);
+}
+aside img {
+    width: 20%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 10px;
+}
+main img {
+    width: 20%;
+    border-radius: 10%;
+}
+.row_container{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.row_item{
+ 
+    width: 30%;
+    box-sizing: border-box;
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+}
+.column_container{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.column_item{
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 2;
+}
+.grow:hover {
+    transform: scale(1.5);
+}
+.grow_text:hover{
+    font-size: 25px;
+    line-height: 2;
+    color: black;
+}
+#contactlogo {
+    width: 50%;
+}
+#me{
+    border-radius: 50%;
+}

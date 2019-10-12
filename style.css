@@ -1,0 +1,190 @@
+@keyframes toggle {
+    25% { transform: translate(10px);}
+    50% {transform: translate(0px);}
+    75% { transform: translate(-10px);}
+    100% {transform: translate(0px);}
+}
+ button:hover, a:hover {
+    animation-name: toggle;
+    animation-duration: 250ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+}
+a {
+    text-decoration: none;
+}
+body {
+    line-height: 1.2;
+    font-family: cursive;
+    background-image: url(pics/Journey-of-life1920x1080-wallpaper-wp6606659.jpg);
+    background-size: cover;
+}
+/*button {
+    background-color: midnightblue;
+    color: whitesmoke;
+    border-radius: 50px;
+}*/
+
+
+.button:hover {
+    background-color: darkslateblue;
+}
+header {
+    text-align: center;
+    color: midnightblue;
+}
+h1 {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+main {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+main img {
+    width: 10%;
+  }
+aside {
+    
+    float: right;
+    margin-right: 10px;
+    top: 10px;
+    right: 1%;
+    left: 76%;
+    width: 24%;
+    height: 85%;
+    font-size: 25px;
+    line-height: 1.2;
+}
+aside article {
+   /* background-color: whitesmoke;*/
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+aside img {
+    width: 25%;
+    margin-left: 33%;
+    margin-right:33%;
+}
+footer{
+   /* background-color: whitesmoke;*/
+    position: fixed;
+    float: left;
+    width: 24%;
+    font-weight: bold;
+    /*margin-left: 1%;
+    margin-top: 42%;
+    margin-bottom: 1%;*/
+    bottom: 10px;
+    margin-left: 10px;
+    
+}
+/*-----------------------------------Flexboxes*/
+.home-container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 5%;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.home_item{
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  color: midnightblue;
+  font-weight: bold;
+ /* font-size: 1em;*/
+  text-align: center;
+}
+.contact_container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 5%;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.contact_item{
+  padding: 5px;
+  margin-top: 10px;
+  color: midnightblue;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2;
+
+}
+.button {
+    display: block;
+    background-color: midnightblue;
+    color: wheat;
+    width: 50%;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: inherit;
+}
+
+/*---------------------------------------------classes*/
+
+.grow:hover {
+    transform: scale(1.5);
+}
+.grow_text:hover{
+    font-size: 25px;
+    color: black;
+}
+/*----------------------------------------------ID's*/
+#contactlogo {
+    width: 100%;
+}
+#me {
+    border-radius: 20px;
+}
+#navigation{
+    float: left;
+    margin-left: 10px;
+    position: fixed;
+    top: 10px;
+    left: auto;
+    width: 24%;
+    height: 85%;
+    line-height: 3;
+    
+} 
+#contact {
+    text-align: center;
+    line-height: 2;
+}
+#main_contact {
+    width: 45%;
+    background-color: transparent;
+}
